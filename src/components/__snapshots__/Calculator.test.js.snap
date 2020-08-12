@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator should render correctly Multiplication 1`] = `
+<div>
+  <div>
+    The multiplication of 
+    1
+     and 
+    1
+     is: 
+    1
+  </div>
+</div>
+`;
+
+exports[`Calculator should render correctly Substraction 1`] = `
+<div>
+  <div>
+    The substraction of 
+    1
+     and 
+    1
+     is: 
+    0
+  </div>
+</div>
+`;
+
+exports[`Calculator should render correctly Sum 1`] = `
+<div>
+  <div>
+    The sum of 
+    1
+     and 
+    1
+     is: 
+    2
+  </div>
+</div>
+`;

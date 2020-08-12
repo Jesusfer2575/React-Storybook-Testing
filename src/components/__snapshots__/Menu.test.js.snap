@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu component tests Should change the state when select the dropdown 1`] = `
+<div>
+  <Dropdown
+    id="menuDropdown"
+    navbar={false}
+    onSelect={[Function]}
+  >
+    <DropdownToggle
+      id="dropdown-basic"
+      variant="success"
+    >
+      Select an operation
+    </DropdownToggle>
+    <DropdownMenu
+      alignRight={false}
+      flip={true}
+    >
+      <DropdownItem
+        as={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "SafeAnchor",
+            "render": [Function],
+          }
+        }
+        disabled={false}
+        eventKey={1}
+      >
+        Addition
+      </DropdownItem>
+      <DropdownItem
+        as={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "SafeAnchor",
+            "render": [Function],
+          }
+        }
+        disabled={false}
+        eventKey={2}
+      >
+        Substraction
+      </DropdownItem>
+      <DropdownItem
+        as={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "SafeAnchor",
+            "render": [Function],
+          }
+        }
+        disabled={false}
+        eventKey={3}
+      >
+        Multiplication
+      </DropdownItem>
+      <DropdownItem
+        as={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "SafeAnchor",
+            "render": [Function],
+          }
+        }
+        disabled={false}
+        eventKey={4}
+      >
+        Division
+      </DropdownItem>
+    </DropdownMenu>
+  </Dropdown>
+  <InputGroup
+    className="mb-3"
+    size="sm"
+  >
+    <FormControl
+      aria-describedby="inputGroup-sizing-sm"
+      aria-label="Small"
+      onChange={[Function]}
+    />
+    <FormControl
+      aria-describedby="inputGroup-sizing-sm"
+      aria-label="Small"
+      onChange={[Function]}
+    />
+  </InputGroup>
+  <Calculator
+    operation={1}
+    valueA={0}
+    valueB={0}
+  />
+</div>
+`;
