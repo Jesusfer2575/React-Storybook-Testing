@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ToastComponent from './stories/ToastComponent';
 
 function App() {
   return (
@@ -17,7 +19,13 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          
         </a>
+        <div>
+          <div>
+            <ToastComponent />
+          </div>
+        </div>
       </header>
     </div>
   );
