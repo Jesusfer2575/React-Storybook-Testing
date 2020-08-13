@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { typeOperation } from '../utils/constants';
 
-
 const Calculator = ({ valueA, valueB, operation }) => {
   const [operationState, setOperationState] = useState(operation);
   let sum = 0;
@@ -21,7 +20,7 @@ const Calculator = ({ valueA, valueB, operation }) => {
   }
 
   return ( 
-    <div>
+    <React.Fragment>
       {(typeOperation.SUM === operationState) && (
         <div>
           The sum of {valueA} and {valueB} is: {sum}
@@ -41,7 +40,7 @@ const Calculator = ({ valueA, valueB, operation }) => {
         <div>
           The division of {valueA} and {valueB} is: {division}
         </div>)}
-    </div>
+    </React.Fragment>
   );
 }
  

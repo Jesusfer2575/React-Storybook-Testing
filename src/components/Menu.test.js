@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow, render } from 'enzyme';
 import Menu from './Menu';
 
 describe('Menu component tests', () => {
@@ -7,4 +7,10 @@ describe('Menu component tests', () => {
     const component = shallow(<Menu />);
     expect(component).toMatchSnapshot();
   });
+
+  it('Should change dropdown when click button', () => {
+    const wrapper = render(<Menu />);
+    const dropdownText = wrapper.find('#menuDropdown button').text();
+    expect(dropdownText).toBe('Select an operation');
+  })
 });
